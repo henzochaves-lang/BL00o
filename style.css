@@ -1,10 +1,52 @@
 body {
-    background-color: rgb(176, 9, 226);
+    background: linear-gradient(135deg, #24103d, #174ea6);
+    font-family: "Comic Sans MS", cursive;
+    padding: 20px;
 }
 
+/* Título principal */
+h1 {
+    color: #00e5ff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 8px #000000;
+}
 
+/* Nomes dos artistas */
+h2 {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #000000;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid #00e5ff;
+    box-shadow: 0 5px 15px #000000;
+}
 
-h1{
+.menos {
+    color: black;
+    background-color: #ffffff;
+}
 
+.gusttavo {
+    color: turquoise;
+    background-color: #fff176;
+}
 
-    background-color:royalb
+.panda {
+    color: turquoise;
+    background-color: #ffcc80;
+}
+
+/* Organização dos vídeos */
+.linha-videos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Moldura dos vídeos */
+iframe {
+    border: 5px solid #00e5ff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #000000;
+}
